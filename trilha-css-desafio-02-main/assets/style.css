@@ -1,0 +1,115 @@
+@import url(../assets/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+
+.container {
+
+    padding: 0px 20px;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+
+
+.item {
+
+    padding: 5px;
+
+}
+
+.container .item iframe{
+    margin-left: 85px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 85px;
+    font-size: 19px;
+    font-weight: 550;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+}
+
+main .container {
+    justify-content: start;
+}
+
+.video-actions {
+    margin-left: 85px;
+    display: flex;
+    gap: 42px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 10px;
+
+
+}
+
+.video-actions span{
+    color: #515151;
+    font-weight: 400;
+}
+
+.video-actions .action {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.container .sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thumbnail {
+    display: inline-flex;
+    margin-bottom: 16px;
+
+}
+
+.thumbnail img {
+    border-radius: 5px;
+}
+
+.thumbnail h2 {
+    
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 7px;
+
+    
+}
+
+.thumbnail p {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;    
+
+}
+
+.thumbnail-infos {
+    width: 196px;
+    max-height: 89px;
+    margin-left: 16px;
+
+}
+
+
